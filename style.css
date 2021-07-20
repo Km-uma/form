@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    background-color: rgb(198, 152, 242);
+    padding: 34px;
+    margin: auto;
+}
+.container h1, p{
+    text-align: center;
+}
+input, textarea{
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+    color: black;
+    background-color: violet;
+    padding: 8px 12px;
+    border: 2px solid white;
+    border-radius: 14px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.smtmsg{
+    color: green;
+    font-size: 30px;
+    text-align: center;
+}
